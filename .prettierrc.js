@@ -1,3 +1,3 @@
 module.exports = {
-  ...require('sijiaoh-gts/.prettierrc.json')
-}
+  ...require('sijiaoh-gts/.prettierrc.json'),
+};

@@ -1,4 +1,3 @@
 module.exports = {
-  "extends": "./node_modules/sijiaoh-gts/"
-}
-;
+  extends: './node_modules/sijiaoh-gts/',
+};
