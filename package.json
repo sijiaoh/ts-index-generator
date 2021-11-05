@@ -12,5 +12,8 @@
     "@types/node": "^16.11.6",
     "sijiaoh-gts": "^0.6.0",
     "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "commander": "^8.3.0"
   }
 }
