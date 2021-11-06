@@ -6,11 +6,15 @@
     "clean": "gts clean",
     "build": "tsc --project tsconfig.build.json",
     "fix": "gts fix",
-    "prepublish": "yarn clean && yarn build"
+    "prepublish": "yarn clean && yarn build",
+    "test": "yarn jest"
   },
   "devDependencies": {
+    "@types/jest": "^27.0.2",
     "@types/node": "^16.11.6",
+    "jest": "^27.3.1",
     "sijiaoh-gts": "^0.6.0",
+    "ts-jest": "^27.0.7",
     "typescript": "^4.4.4"
   },
   "dependencies": {
