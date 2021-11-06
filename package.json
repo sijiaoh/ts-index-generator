@@ -7,7 +7,7 @@
     "build": "tsc --project tsconfig.build.json",
     "fix": "gts fix",
     "prepublish": "yarn clean && yarn build",
-    "test": "yarn jest"
+    "test": "yarn jest && yarn lint"
   },
   "devDependencies": {
     "@types/jest": "^27.0.2",
