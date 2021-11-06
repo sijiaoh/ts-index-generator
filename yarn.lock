@@ -730,6 +730,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sijiaoh/ts-index-generator@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@sijiaoh/ts-index-generator@workspace:."
+  dependencies:
+    "@types/jest": ^27.0.2
+    "@types/node": ^16.11.6
+    commander: ^8.3.0
+    jest: ^27.3.1
+    sijiaoh-gts: ^0.6.0
+    ts-jest: ^27.0.7
+    typescript: ^4.4.4
+  bin:
+    ts-index-generator: build/src/index.js
+  languageName: unknown
+  linkType: soft
+
 "@sindresorhus/is@npm:^0.14.0":
   version: 0.14.0
   resolution: "@sindresorhus/is@npm:0.14.0"
@@ -5881,20 +5897,6 @@ __metadata:
   checksum: b530f3fadf78e570cf3c761fb74fef655beff6b0f84b29209bac6c9622db75ad1417f4a7b5d54c96605dcd72734ad44526fef9f396807b90839449eb543c6206
   languageName: node
   linkType: hard
-
-"ts-index-generator@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "ts-index-generator@workspace:."
-  dependencies:
-    "@types/jest": ^27.0.2
-    "@types/node": ^16.11.6
-    commander: ^8.3.0
-    jest: ^27.3.1
-    sijiaoh-gts: ^0.6.0
-    ts-jest: ^27.0.7
-    typescript: ^4.4.4
-  languageName: unknown
-  linkType: soft
 
 "ts-jest@npm:^27.0.7":
   version: 27.0.7
