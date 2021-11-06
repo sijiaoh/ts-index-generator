@@ -7,7 +7,10 @@ import {generate} from './generate';
 program.argument('<files...>').action((files: string[]) => {
   files.forEach(filePath => {
     const newFile = generate(filePath);
-    if (newFile) fs.writeFileSync(filePath, newFile);
+    if (newFile) {
+      const currentFile = fs.readFileSync(filePath).toString();
+      if (newFile !== currentFile) fs.writeFileSync(filePath, newFile);
+    }
   });
 });
 
