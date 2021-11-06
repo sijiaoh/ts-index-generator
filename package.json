@@ -1,6 +1,17 @@
 {
-  "name": "ts-index-generator",
+  "name": "@sijiaoh/ts-index-generator",
+  "version": "0.0.0",
   "packageManager": "yarn@3.1.0",
+  "keywords": [
+    "typescript",
+    "sijiaoh"
+  ],
+  "author": "sijiaoh",
+  "license": "MIT",
+  "files": [
+    "build"
+  ],
+  "bin": "build/src/index.js",
   "scripts": {
     "lint": "gts lint",
     "clean": "gts clean",
