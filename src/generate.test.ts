@@ -17,6 +17,7 @@ describe(generate.name, () => {
       "// ts-index-generator
       /* eslint-disable */
       // prettier-ignore
+      export * from './B';
       export * from './a';
       "
     `);

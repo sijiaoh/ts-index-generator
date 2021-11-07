@@ -35,7 +35,7 @@ export const generate = (filePath: string) => {
           return false;
         }
       }
-      return dirFileName.endsWith('.ts');
+      return dirFileName.endsWith('.ts') || dirFileName.endsWith('.tsx');
     });
 
   const fileBody = exportFileNames
